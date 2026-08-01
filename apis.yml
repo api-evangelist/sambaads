@@ -1,7 +1,30 @@
 aid: sambaads
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sambaads.png
 name: SambaAds
-description: SambaAds is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  SambaAds is a company surfaced as a portfolio company of 500 Global and added
+  to the API Evangelist network as a lead for enrichment. As of this pass the
+  registered website (ycontent.com.br) serves yContent, a Brazilian coupon and
+  discount aggregation platform (part of Rede de Cupons / Ganhe de Volta) that
+  verifies and publishes working promotional codes for major Brazilian
+  e-commerce retailers such as Amazon, Americanas, Kabum and Sephora. The site
+  is a consumer-facing web property; it publishes no developer portal, API
+  documentation, OpenAPI/AsyncAPI specification, SDKs, or /.well-known discovery
+  surface, so there is no public API surface to catalog at this time. This
+  profile records the honest result of an enrichment pass (domain-security
+  probe plus well-known and security.txt probes) and remains a lead awaiting any
+  future developer program.
 url: https://raw.githubusercontent.com/api-evangelist/sambaads/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Advertising
+- E-Commerce
+- Coupons
+- Cashback
+- Brazil
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,12 @@ maintainers:
 common:
 - type: Website
   url: https://ycontent.com.br
+- type: PrivacyPolicy
+  url: https://ycontent.com.br/politica-de-privacidade
+- type: DomainSecurity
+  url: security/sambaads-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
