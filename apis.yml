@@ -37,6 +37,9 @@ description: >-
   probe plus well-known and security.txt probes) and remains a lead awaiting any
   future developer program.
 url: https://raw.githubusercontent.com/api-evangelist/sambaads/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "The site is a consumer-facing web property; it publishes no developer portal, API documentation, OpenAPI/AsyncAPI specification, SDKs, or /.well-known discovery surface, so there is no public API surf"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
