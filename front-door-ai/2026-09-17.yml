@@ -1,0 +1,21 @@
+# Front Door AI Index — sambaads — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: sambaads
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: ycontent.com.br
+  final_host: www.ycontent.com.br
+  ownership: own
+  owner: sambaads
+  shares_host_with: null
+  inherited_from: null
+  verdict: unmeasured
+  score: null
+  host_score: null
+  density: null
+  words: null
+  tiers: null
+  ambiguous: null
+  top_terms: null
