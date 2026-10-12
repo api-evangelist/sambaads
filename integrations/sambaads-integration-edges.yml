@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/sambaads/integrations
+- https://n8n.io/integrations/sambaads/
+- https://composio.dev/toolkits/sambaads
+- https://monid.ai/tools/sambaads
+checked:
+- https://composio.dev/toolkits/sambaads
+- https://monid.ai/tools/sambaads
+- https://n8n.io/integrations/sambaads/
+- https://zapier.com/apps/sambaads/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
